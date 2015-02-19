@@ -12,7 +12,7 @@ To install your Perfsonar node download the 6.2 kernel roll
 from the `Rocks web site <http://www.rocksclusters.org/>`_
 in the download section.
 
-At the moment to access Rocks 6.2 you need to our `beta web
+At the moment to access Rocks 6.2 you need to use our `beta web
 site <http://beta6.rocksclusters.org/isos/>`_, when Rocks 6.2
 will be release it will be available from the main web site.
 
@@ -22,8 +22,8 @@ networking parameters** as indicated on the screen (if you don't
 do that you will not be able to fetch the required Rolls in the
 next screen).
 
-At the next screen type `beta6.rocksclusters.org` as `Hostname of 
-Roll Server` and click on Download. Then select the following Rolls:
+At the next screen type `beta6.rocksclusters.org` as 'Hostname of 
+Roll Server' and click on Download. Then select the following Rolls:
 
 - kernel
 - base
