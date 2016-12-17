@@ -12,9 +12,9 @@ and install the **perfSONAR** roll at the time of the building the node as a
 **ROCKS frontend**.  
 Please follow the steps below.
 
-#. **Download `perfSONAR ISO`_**
+#. **Download perfSONAR ISO** from `perfSONAR ISO`_
 
-   and burn on a CD/DVD
+   Burn the ISO on a CD/DVD. 
 
 #. **Download the 6.2 kernel roll** from the `Rocks Downloads`_.  
 
@@ -22,16 +22,16 @@ Please follow the steps below.
    
 #. **Build  your server using kernel CD**
 
-   #. At boot time make sure to type *build* and **to add all the 
-      networking parameters** using parameters as indicated on the screen. 
+   #. At boot time make sure to type *build* and *to add all the networking parameters* 
+      using parameters as indicated on the screen. 
       Make sure to enter the proper networking information or you will
       have to repeat the installation process because 
       you will not be able to fetch the required Rolls in the next screen.
 
    #. Follow the standard installation procedure as indicated in the `Users Guide`_. 
 
-   #. At the next screen use a default host name  for rolls download click on 
-      **Download**, then select the following Rolls:: 
+   #. At the next screen use a default host name  for rolls server, click on 
+      **Download**, then select the following rolls:: 
 
           - kernel
           - base
@@ -50,16 +50,15 @@ Please follow the steps below.
           /var 35-40Gb 
           /export (the rest of the disk)
 
-   #. When you get to the screen `Install perfSONAR WebUI Frontend` select
-      `Install WebUI on Frontend`. 
+   #. When you get to the screen *Install perfSONAR WebUI Frontend* select
+      *Install WebUI on Frontend*. 
       
    Once the installation finishes the host will reboot and is ready for login.
    
-#.  **Select a username and a password for the web admin interface**
+#. **Select a username and a password for the web admin interface**
 
    Login as root on a server console and  when prompted select username and
-   password that will be used by perfSONAR.
-
+   password that will be used for perfSONAR.
 
 #. **Configure the mesh client**
 
