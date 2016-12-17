@@ -21,12 +21,11 @@ Please follow the steps below.
 
    #. At boot time make sure to type *build* and **to add all the 
       networking parameters** using parameters as indicated on the screen. 
-	  Make sure to enter the proper networking information or you will
+      Make sure to enter the proper networking information or you will
       have to repeat the installation process because 
       you will not be able to fetch the required Rolls in the next screen.
 
-   #. Follow the standard installation procedure as indicated in the
-         `Users Guide`_. 
+   #. Follow the standard installation procedure as indicated in the `Users Guide`_. 
 
    #. At the next screen use a default host name  for rolls download click on 
       **Download**, then select the following Rolls:: 
@@ -37,20 +36,20 @@ Please follow the steps below.
           - web-server
 
       Then select *adding a roll* from CD/DVD  and use your perfSONAR CD to add
-	  the roll.
+      the roll.
 
    #. Follow the standard installation procedure as indicated in the
       `Users Guide`_.  Usually,  we suggest an auto partition, but perfSONAR
-	  need more space for the /var.  The zotac box has 120Gb disk.  Select 
-	  **Manual Partitioning** and Make  the following partitions:: 
-	  
+      need more space for the /var.  The zotac box has 120Gb disk.  Select 
+      **Manual Partitioning** and Make  the following partitions:: 
+      
           / 32Gb  
           /var 35-40Gb 
           /export (the rest of the disk)
 
    #. When you get to the screen `Install perfSONAR WebUI Frontend` select
       `Install WebUI on Frontend`. 
-	  
+      
    Once the installation finishes the host will reboot and is ready for login.
    
 #. Login as root on a server console and select a username and a password for the web admin interface
