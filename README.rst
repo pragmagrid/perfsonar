@@ -12,12 +12,15 @@ and install the **perfSONAR** roll at the time of the building the node as a
 **ROCKS frontend**.  
 Please follow the steps below.
 
-#. Download `perfSONAR ISO`_ and burn on a CD/DVD
+#. **Download `perfSONAR ISO`_**
 
-#. Download the **6.2 kernel roll** from the 
-   `Rocks Downloads`_.  Burn the ISO on a CD/DVD. 
+   and burn on a CD/DVD
+
+#. **Download the 6.2 kernel roll** from the `Rocks Downloads`_.  
+
+   Burn the ISO on a CD/DVD. 
    
-#. Build  your server using this kernel CD. 
+#. **Build  your server using kernel CD**
 
    #. At boot time make sure to type *build* and **to add all the 
       networking parameters** using parameters as indicated on the screen. 
@@ -52,11 +55,13 @@ Please follow the steps below.
       
    Once the installation finishes the host will reboot and is ready for login.
    
-#. Login as root on a server console and select a username and a password for the web admin interface
-   that will be used by perfSONAR.
+#.  **Select a username and a password for the web admin interface**
+
+   Login as root on a server console and  when prompted select username and
+   password that will be used by perfSONAR.
 
 
-#. Configure download for the mesh client configuration file:
+#. **Configure the mesh client**
 
    #.  Edit the file **/etc/perfsonar/meshconfig-agent.conf** and add the lines::
 
